@@ -1,1 +1,40 @@
-test
+Exercice 1
+Creez un fichier exo_1.xhtml lié à un fichier exo_1.js.
+
+Fonction plusGrand2()
+Écrire dans exo_1.js une fonction plusGrand2(nombre1, nombre2) qui retourne (en utilisant return dans la fonction) le plus grand de 2 nombres passés en paramètres.
+
+Vérifiez qu'elle fonctionne en appelant cette fonction dans une portion <script></script> du fichier exo1.xhtml et en affichant la valeur retournée dans la console, de la manière suivante :
+
+// Déclarer les variables
+let n1, n2, res;
+
+// Premier test
+n1 = 2;
+n2 = 3;
+res = plusGrand2(n1, n2);
+console.log("Le plus grand de " + n1 + " et " + n2 + " est " + res);
+// doit afficher : Le plus grand de 2 et 3 est 3
+
+// Deuxième test
+n1 = 3;
+n2 = 2;
+res = plusGrand2(n1, n2);
+console.log("Le plus grand de " + n1 + " et " + n2 + " est " + res);
+// doit afficher : Le plus grand de 3 et 2 est 3
+JavaScript
+Fonction plusGrand3()
+En utilisant plusGrand2(), écrire une fonction plusGrand3() qui prend trois nombres en paramètre et qui retourne le plus grand.
+
+Vérifiez son bon fonctionnement grâce à la console. Par exemple :
+
+// Déclarer une variable supplémentaire
+let n3;
+
+// un test
+n1 = 25;
+n2 = 38;
+n3 = 14;
+res = plusGrand3(n1, n2, n3);
+console.log("Le plus grand de " + n1 + ", " + n2 + " et " + n3 + " est " + res);
+// doit afficher : Le plus grand de 25, 38 et 14 est 38
